@@ -538,5 +538,23 @@
       "cast": false,
       "page": true
     }
+  },
+  {
+    "id": "1791803968683",
+    "title": "Mme Metamo",
+    "date": "2024",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": true,
+      "poster": true,
+      "info": true,
+      "images": false,
+      "date": true,
+      "cast": true,
+      "page": true
+    }
   }
 ]
