@@ -65,7 +65,7 @@
       "flyer": true,
       "poster": true,
       "info": true,
-      "images": true,
+      "images": false,
       "date": true,
       "cast": true,
       "page": true
