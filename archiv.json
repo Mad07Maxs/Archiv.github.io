@@ -70,7 +70,12 @@
       "cast": true,
       "page": true
     },
-    "hasPage": true
+    "hasPage": true,
+    "hasDate": true,
+    "infoText": true,
+    "flyer": true,
+    "poster": true,
+    "hasCast": true
   },
   {
     "id": "1791802553887",
@@ -538,7 +543,12 @@
       "date": true,
       "cast": false,
       "page": true
-    }
+    },
+    "poster": true,
+    "infoText": false,
+    "flyer": false,
+    "hasDate": true,
+    "hasPage": true
   },
   {
     "id": "1791803968683",
