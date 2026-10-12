@@ -286,5 +286,23 @@
       "cast": false,
       "page": false
     }
+  },
+  {
+    "id": "1791803108031",
+    "title": "Der Drache",
+    "date": "2008",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": false,
+      "info": false,
+      "images": false,
+      "date": false,
+      "cast": false,
+      "page": false
+    }
   }
 ]
