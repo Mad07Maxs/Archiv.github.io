@@ -34,5 +34,23 @@
       "cast": false,
       "page": false
     }
+  },
+  {
+    "id": "1791802196155",
+    "title": "Die Stühle",
+    "date": "2013",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": false,
+      "info": false,
+      "images": false,
+      "date": false,
+      "cast": false,
+      "page": false
+    }
   }
 ]
