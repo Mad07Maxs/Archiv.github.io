@@ -594,8 +594,26 @@
     }
   },
   {
-    "id": "1791805883377",
+    "id": "1791805815641",
     "title": "Phaidon",
+    "date": "2022",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": true,
+      "info": false,
+      "images": false,
+      "date": true,
+      "cast": false,
+      "page": true
+    }
+  },
+  {
+    "id": "1791805960027",
+    "title": "Rumpelstilzchen",
     "date": "2022",
     "director": "",
     "imageUrl": "",
