@@ -574,5 +574,23 @@
       "cast": false,
       "page": true
     }
+  },
+  {
+    "id": "1791804049989",
+    "title": "Zeitformeln",
+    "date": "2022",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": true,
+      "info": false,
+      "images": false,
+      "date": true,
+      "cast": false,
+      "page": true
+    }
   }
 ]
