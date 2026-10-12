@@ -52,5 +52,23 @@
       "cast": false,
       "page": false
     }
+  },
+  {
+    "id": "1791802277062",
+    "title": "Dr Jekyl und Mrs Hyde",
+    "date": "2026",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": true,
+      "poster": true,
+      "info": true,
+      "images": false,
+      "date": true,
+      "cast": true,
+      "page": true
+    }
   }
 ]
