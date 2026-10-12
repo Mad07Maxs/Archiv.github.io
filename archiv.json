@@ -322,5 +322,23 @@
       "cast": false,
       "page": false
     }
+  },
+  {
+    "id": "1791803224388",
+    "title": "Wenn der Dämon kommt",
+    "date": "2007",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": false,
+      "info": false,
+      "images": false,
+      "date": false,
+      "cast": false,
+      "page": false
+    }
   }
 ]
