@@ -878,5 +878,33 @@
     "hasDate": true,
     "hasCast": false,
     "hasPage": true
+  },
+  {
+    "id": "play_1791807347112",
+    "title": "Ali Baba und die 40 Räuber",
+    "date": "2016",
+    "cast": "",
+    "info": "",
+    "flyer": false,
+    "poster": true,
+    "infoText": false,
+    "images": false,
+    "hasDate": true,
+    "hasCast": false,
+    "hasPage": true
+  },
+  {
+    "id": "play_1791807406420",
+    "title": "Da sein oder nicht da sein!",
+    "date": "2016",
+    "cast": "",
+    "info": "",
+    "flyer": false,
+    "poster": true,
+    "infoText": false,
+    "images": false,
+    "hasDate": true,
+    "hasCast": false,
+    "hasPage": true
   }
 ]
