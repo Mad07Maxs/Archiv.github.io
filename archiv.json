@@ -88,5 +88,23 @@
       "cast": false,
       "page": false
     }
+  },
+  {
+    "id": "1791802772414",
+    "title": "Lametta",
+    "date": "2012",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": false,
+      "info": false,
+      "images": false,
+      "date": false,
+      "cast": false,
+      "page": false
+    }
   }
 ]
