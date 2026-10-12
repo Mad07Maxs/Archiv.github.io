@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "id": "1791800555353",
+    "title": "Test",
+    "date": "Hallo",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": false,
+      "info": false,
+      "images": false,
+      "date": true,
+      "cast": false
+    }
+  }
+]
