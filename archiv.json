@@ -646,5 +646,23 @@
       "cast": false,
       "page": true
     }
+  },
+  {
+    "id": "1791806134586",
+    "title": "Die Nachtigall",
+    "date": "2019",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": false,
+      "info": false,
+      "images": false,
+      "date": false,
+      "cast": false,
+      "page": true
+    }
   }
 ]
