@@ -124,5 +124,23 @@
       "cast": false,
       "page": false
     }
+  },
+  {
+    "id": "1791802885658",
+    "title": "Bubblegum und Brillanten",
+    "date": "2012",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": false,
+      "info": false,
+      "images": false,
+      "date": false,
+      "cast": false,
+      "page": false
+    }
   }
 ]
