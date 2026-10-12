@@ -250,5 +250,23 @@
       "cast": false,
       "page": false
     }
+  },
+  {
+    "id": "1791803065916",
+    "title": "Damen der Gesellschaft",
+    "date": "2009",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": false,
+      "info": false,
+      "images": false,
+      "date": false,
+      "cast": false,
+      "page": false
+    }
   }
 ]
