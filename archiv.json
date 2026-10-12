@@ -556,5 +556,23 @@
       "cast": true,
       "page": true
     }
+  },
+  {
+    "id": "1791804008278",
+    "title": "Drei Königskinder",
+    "date": "2023",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": true,
+      "info": false,
+      "images": false,
+      "date": true,
+      "cast": false,
+      "page": true
+    }
   }
 ]
