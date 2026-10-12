@@ -520,5 +520,23 @@
       "cast": false,
       "page": false
     }
+  },
+  {
+    "id": "1791803910379",
+    "title": "Die Kuscheltier Entführungen",
+    "date": "2024",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": true,
+      "info": false,
+      "images": false,
+      "date": true,
+      "cast": false,
+      "page": true
+    }
   }
 ]
