@@ -214,5 +214,23 @@
       "cast": false,
       "page": false
     }
+  },
+  {
+    "id": "1791803022135",
+    "title": "The Desperate Actors warten aufs Christkind",
+    "date": "2010",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": false,
+      "info": false,
+      "images": false,
+      "date": false,
+      "cast": false,
+      "page": false
+    }
   }
 ]
