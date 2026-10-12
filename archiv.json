@@ -664,5 +664,23 @@
       "cast": false,
       "page": true
     }
+  },
+  {
+    "id": "1791806204483",
+    "title": "Sinn Tonic",
+    "date": "2019",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": true,
+      "info": false,
+      "images": false,
+      "date": true,
+      "cast": false,
+      "page": true
+    }
   }
 ]
