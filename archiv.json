@@ -69,7 +69,8 @@
       "date": true,
       "cast": true,
       "page": true
-    }
+    },
+    "hasPage": true
   },
   {
     "id": "1791802553887",
