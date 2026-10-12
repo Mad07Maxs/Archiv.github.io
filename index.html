@@ -28,7 +28,8 @@
                             gold: '#d4af37',
                             goldLight: '#f3e5ab',
                             accent: '#e21d48',
-                            purple: '#7e22ce'
+                            purple: '#7e22ce',
+                            teal: '#0d9488'
                         }
                     }
                 }
@@ -86,43 +87,53 @@
     <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
         
         <!-- Statistik Banner -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div class="bg-theater-900/80 border border-slate-800/80 rounded-2xl p-5 shadow-xl relative overflow-hidden flex items-center justify-between">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+            <div class="bg-theater-900/80 border border-slate-800/80 rounded-2xl p-4 shadow-xl flex items-center justify-between">
                 <div>
-                    <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">Stücke Gesamt</p>
-                    <h3 id="statTotal" class="text-3xl font-bold font-playfair text-white mt-1">0</h3>
+                    <p class="text-[11px] uppercase tracking-wider text-slate-400 font-semibold">Stücke Gesamt</p>
+                    <h3 id="statTotal" class="text-2xl font-bold font-playfair text-white mt-0.5">0</h3>
                 </div>
-                <div class="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl">
+                <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-lg">
                     <i class="fa-solid fa-book-open"></i>
                 </div>
             </div>
             
-            <div class="bg-theater-900/80 border border-slate-800/80 rounded-2xl p-5 shadow-xl relative overflow-hidden flex items-center justify-between">
+            <div class="bg-theater-900/80 border border-slate-800/80 rounded-2xl p-4 shadow-xl flex items-center justify-between">
                 <div>
-                    <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">Vollständig (100%)</p>
-                    <h3 id="statComplete" class="text-3xl font-bold font-playfair text-emerald-400 mt-1">0</h3>
+                    <p class="text-[11px] uppercase tracking-wider text-slate-400 font-semibold">Vollständig (100%)</p>
+                    <h3 id="statComplete" class="text-2xl font-bold font-playfair text-emerald-400 mt-0.5">0</h3>
                 </div>
-                <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 text-xl">
+                <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 text-lg">
                     <i class="fa-solid fa-circle-check"></i>
                 </div>
             </div>
 
-            <div class="bg-theater-900/80 border border-slate-800/80 rounded-2xl p-5 shadow-xl relative overflow-hidden flex items-center justify-between">
+            <div class="bg-theater-900/80 border border-slate-800/80 rounded-2xl p-4 shadow-xl flex items-center justify-between">
                 <div>
-                    <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">In Bearbeitung</p>
-                    <h3 id="statInProgress" class="text-3xl font-bold font-playfair text-amber-400 mt-1">0</h3>
+                    <p class="text-[11px] uppercase tracking-wider text-teal-400 font-semibold">Seiten Erstellt</p>
+                    <h3 id="statPages" class="text-2xl font-bold font-playfair text-teal-300 mt-0.5">0 / 0</h3>
                 </div>
-                <div class="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl">
+                <div class="w-10 h-10 rounded-xl bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 text-lg">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+            </div>
+
+            <div class="bg-theater-900/80 border border-slate-800/80 rounded-2xl p-4 shadow-xl flex items-center justify-between">
+                <div>
+                    <p class="text-[11px] uppercase tracking-wider text-slate-400 font-semibold">In Bearbeitung</p>
+                    <h3 id="statInProgress" class="text-2xl font-bold font-playfair text-amber-400 mt-0.5">0</h3>
+                </div>
+                <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-lg">
                     <i class="fa-solid fa-list-check"></i>
                 </div>
             </div>
 
-            <div class="bg-theater-900/80 border border-slate-800/80 rounded-2xl p-5 shadow-xl relative overflow-hidden flex items-center justify-between">
+            <div class="bg-theater-900/80 border border-slate-800/80 rounded-2xl p-4 shadow-xl flex items-center justify-between">
                 <div>
-                    <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">Checkpoint-Quote</p>
-                    <h3 id="statRate" class="text-3xl font-bold font-playfair text-purple-400 mt-1">0%</h3>
+                    <p class="text-[11px] uppercase tracking-wider text-slate-400 font-semibold">Gesamtfortschritt</p>
+                    <h3 id="statRate" class="text-2xl font-bold font-playfair text-purple-400 mt-0.5">0%</h3>
                 </div>
-                <div class="w-12 h-12 rounded-2xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 text-xl">
+                <div class="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 text-lg">
                     <i class="fa-solid fa-chart-pie"></i>
                 </div>
             </div>
@@ -140,6 +151,7 @@
                     <option value="all">Alle Status anzeigen</option>
                     <option value="complete">Nur Vollständige (100%)</option>
                     <option value="incomplete">In Bearbeitung / Unvollständig</option>
+                    <option value="missing_page">Fehlt: Seite erstellt</option>
                     <option value="missing_flyer">Fehlt: Flyer</option>
                     <option value="missing_poster">Fehlt: Plakat</option>
                     <option value="missing_cast">Fehlt: Rollen/Darsteller</option>
@@ -165,10 +177,6 @@
         </div>
 
     </main>
-
-    <footer class="bg-theater-900/50 border-t border-slate-800 py-6 mt-12 text-center text-xs text-slate-500">
-        <p>Theater-Archiv &bull; Integriert mit der GitHub REST API &bull; Automatische Synchronisation</p>
-    </footer>
 
     <!-- MODAL FÜR STÜCK NEU / BEARBEITEN -->
     <div id="playModal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
@@ -216,7 +224,7 @@
                 </div>
 
                 <div class="pt-2">
-                    <label class="block text-xs font-semibold text-amber-400 uppercase tracking-wider mb-3">6 Pflicht-Checkpoints</label>
+                    <label class="block text-xs font-semibold text-amber-400 uppercase tracking-wider mb-3">7 Pflicht-Checkpoints</label>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 bg-theater-950 p-4 rounded-xl border border-slate-800">
                         <label class="flex items-center space-x-3 cursor-pointer select-none">
                             <input type="checkbox" id="checkFlyer" class="w-4 h-4 rounded bg-theater-800 border-slate-700 text-amber-500 focus:ring-amber-500">
@@ -241,6 +249,10 @@
                         <label class="flex items-center space-x-3 cursor-pointer select-none">
                             <input type="checkbox" id="checkCast" class="w-4 h-4 rounded bg-theater-800 border-slate-700 text-amber-500 focus:ring-amber-500">
                             <span class="text-sm text-slate-200">Rollen / Darsteller eingetragen</span>
+                        </label>
+                        <label class="flex items-center space-x-3 cursor-pointer select-none sm:col-span-2 pt-2 border-t border-slate-800/60">
+                            <input type="checkbox" id="checkPage" class="w-4 h-4 rounded bg-theater-800 border-slate-700 text-teal-500 focus:ring-teal-500">
+                            <span class="text-sm text-teal-300 font-medium"><i class="fa-solid fa-globe mr-1.5"></i>Seite für Website bereits erstellt</span>
                         </label>
                     </div>
                 </div>
@@ -277,7 +289,7 @@
                 <div>
                     <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">GitHub Personal Access Token *</label>
                     <input type="password" id="ghToken" required class="w-full bg-theater-950 border border-slate-800 rounded-xl px-4 py-2.5 text-xs font-mono text-amber-400 focus:outline-none focus:border-amber-500">
-                    <p class="text-[11px] text-slate-500 mt-1">Benötigt 'repo' Schreibzugriff.</p>
+                    <p class="text-[11px] text-slate-500 mt-1">Benötigt 'repo' Schreibzugriff (bzw. Contents: Read & write).</p>
                 </div>
 
                 <div>
@@ -315,20 +327,19 @@
     </div>
 
     <script>
-        // Default / Vorkonfigurierte GitHub Zugangsdaten
+        // Vorkonfigurierte GitHub Zugangsdaten mit automatischer Erstellung von archiv.json
         const DEFAULT_CONFIG = {
-            token: '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',
-            repo: 'mad07maxs/Archiv.github.io', // z.B. username/theater-archiv
+            token: '',
+            repo: 'Mad07Maxs/Archiv.github.io', 
             branch: 'main',
             path: 'archiv.json'
         };
 
         let ghConfig = JSON.parse(localStorage.getItem('theater_gh_config')) || DEFAULT_CONFIG;
-        let currentSha = null; // SHA der Datei auf GitHub zum Überschreiben
+        let currentSha = null; 
         let plays = JSON.parse(localStorage.getItem('theater_archive_plays')) || [];
         let viewMode = 'grid';
 
-        // UTILS: UTF-8 zu Base64 und umgekehrt für saubere deutsche Umlaute
         function utf8ToBase64(str) {
             return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
                 return String.fromCharCode('0x' + p1);
@@ -341,7 +352,6 @@
             }).join(''));
         }
 
-        // GITHUB API INTEGRATION
         function updateSyncStatus(type, message) {
             const badge = document.getElementById('syncBadge');
             const dot = document.getElementById('syncDot');
@@ -391,9 +401,9 @@
                 });
 
                 if (response.status === 404) {
-                    // Datei existiert noch nicht auf GitHub -> wird beim ersten Speichern angelegt
-                    currentSha = null;
-                    updateSyncStatus('success', 'Bereit (Neue Datei)');
+                    // AUTOMATISCHE ERSTELLUNG DER FILE, FALLS NICHT VORHANDEN!
+                    updateSyncStatus('syncing', 'Erstelle archiv.json...');
+                    await pushToGitHub();
                     return;
                 }
 
@@ -409,6 +419,12 @@
 
                 if (Array.isArray(loadedPlays)) {
                     plays = loadedPlays;
+                    // Sicherstellen dass alter Datensatz den neuen page Checkpoint besitzt
+                    plays.forEach(p => {
+                        if (p.checkpoints && p.checkpoints.page === undefined) {
+                            p.checkpoints.page = false;
+                        }
+                    });
                     localStorage.setItem('theater_archive_plays', JSON.stringify(plays));
                     renderDashboard();
                     updateSyncStatus('success', 'GitHub Daten geladen');
@@ -481,13 +497,16 @@
             let completeCount = 0;
             let totalCheckpoints = 0;
             let checkedCount = 0;
+            let pagesCount = 0;
 
             plays.forEach(p => {
+                if(!p.checkpoints) return;
                 const keys = Object.keys(p.checkpoints);
                 const pChecked = keys.filter(k => p.checkpoints[k]).length;
                 totalCheckpoints += keys.length;
                 checkedCount += pChecked;
                 if (pChecked === keys.length) completeCount++;
+                if (p.checkpoints.page) pagesCount++;
             });
 
             const inProgress = total - completeCount;
@@ -495,6 +514,7 @@
 
             document.getElementById('statTotal').innerText = total;
             document.getElementById('statComplete').innerText = completeCount;
+            document.getElementById('statPages').innerText = `${pagesCount} / ${total}`;
             document.getElementById('statInProgress').innerText = inProgress;
             document.getElementById('statRate').innerText = rate + '%';
         }
@@ -524,11 +544,12 @@
 
                 if (!matchesSearch) return false;
 
-                const cp = p.checkpoints;
-                const isComplete = Object.values(cp).every(Boolean);
+                const cp = p.checkpoints || {};
+                const isComplete = Object.values(cp).length >= 7 && Object.values(cp).every(Boolean);
 
                 if (filterStatus === 'complete') return isComplete;
                 if (filterStatus === 'incomplete') return !isComplete;
+                if (filterStatus === 'missing_page') return !cp.page;
                 if (filterStatus === 'missing_flyer') return !cp.flyer;
                 if (filterStatus === 'missing_poster') return !cp.poster;
                 if (filterStatus === 'missing_cast') return !cp.cast;
@@ -552,8 +573,9 @@
             if (viewMode === 'grid') {
                 let gridHtml = '<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">';
                 filtered.forEach(p => {
-                    const cp = p.checkpoints;
+                    const cp = p.checkpoints || {};
                     const cpList = [
+                        { key: 'page', label: 'Seite erstellt', active: cp.page, highlight: true },
                         { key: 'flyer', label: 'Flyer', active: cp.flyer },
                         { key: 'poster', label: 'Plakat', active: cp.poster },
                         { key: 'info', label: 'Infotext', active: cp.info },
@@ -562,7 +584,7 @@
                         { key: 'cast', label: 'Rollen', active: cp.cast },
                     ];
                     const activeCount = cpList.filter(x => x.active).length;
-                    const percent = Math.round((activeCount / 6) * 100);
+                    const percent = Math.round((activeCount / 7) * 100);
 
                     gridHtml += `
                         <div class="bg-theater-900/80 border border-slate-800 hover:border-slate-700 rounded-2xl p-6 shadow-xl flex flex-col justify-between transition-all duration-300 group">
@@ -599,12 +621,12 @@
                             <div>
                                 <div class="flex items-center justify-between text-xs font-semibold mb-2">
                                     <span class="text-slate-400 uppercase tracking-wider">Checkpoints</span>
-                                    <span class="${percent === 100 ? 'text-emerald-400' : 'text-amber-400'}">${activeCount}/6 (${percent}%)</span>
+                                    <span class="${percent === 100 ? 'text-emerald-400' : 'text-amber-400'}">${activeCount}/7 (${percent}%)</span>
                                 </div>
                                 <div class="grid grid-cols-2 gap-1.5">
                                     ${cpList.map(c => `
-                                        <button onclick="toggleCheckpointQuick('${p.id}', '${c.key}')" class="flex items-center space-x-2 text-xs py-1.5 px-2.5 rounded-lg text-left transition-all ${c.active ? 'bg-emerald-500/10 text-emerald-300 border border-emerald-500/20' : 'bg-slate-950 text-slate-500 border border-slate-800 hover:border-slate-700'}">
-                                            <i class="fa-solid ${c.active ? 'fa-circle-check text-emerald-400' : 'fa-circle-xmark text-slate-600'}"></i>
+                                        <button onclick="toggleCheckpointQuick('${p.id}', '${c.key}')" class="flex items-center space-x-2 text-xs py-1.5 px-2.5 rounded-lg text-left transition-all ${c.highlight ? (c.active ? 'col-span-2 bg-teal-500/20 text-teal-300 border border-teal-500/40 font-semibold' : 'col-span-2 bg-slate-950 text-slate-500 border border-slate-800 hover:border-slate-700') : (c.active ? 'bg-emerald-500/10 text-emerald-300 border border-emerald-500/20' : 'bg-slate-950 text-slate-500 border border-slate-800 hover:border-slate-700')}">
+                                            <i class="fa-solid ${c.key === 'page' ? 'fa-globe' : (c.active ? 'fa-circle-check text-emerald-400' : 'fa-circle-xmark text-slate-600')}"></i>
                                             <span class="truncate">${c.label}</span>
                                         </button>
                                     `).join('')}
@@ -623,7 +645,7 @@
                                 <tr class="border-b border-slate-800 bg-theater-950 text-xs font-semibold text-slate-400 uppercase tracking-wider">
                                     <th class="p-4">Stück & Spielzeit</th>
                                     <th class="p-4">Regie</th>
-                                    <th class="p-4">Darsteller</th>
+                                    <th class="p-4">Webseite Erstellt</th>
                                     <th class="p-4 text-center">Status</th>
                                     <th class="p-4 text-right">Aktionen</th>
                                 </tr>
@@ -631,9 +653,9 @@
                             <tbody class="divide-y divide-slate-800 text-sm">
                 `;
                 filtered.forEach(p => {
-                    const cp = p.checkpoints;
+                    const cp = p.checkpoints || {};
                     const activeCount = Object.keys(cp).filter(k => cp[k]).length;
-                    const percent = Math.round((activeCount / 6) * 100);
+                    const percent = Math.round((activeCount / 7) * 100);
 
                     tableHtml += `
                         <tr class="hover:bg-slate-800/30 transition-colors">
@@ -642,10 +664,15 @@
                                 <div class="text-xs text-amber-400 mt-0.5"><i class="fa-regular fa-calendar mr-1"></i>${escapeHtml(p.date)}</div>
                             </td>
                             <td class="p-4 text-slate-300">${escapeHtml(p.director || '-')}</td>
-                            <td class="p-4 text-slate-300 max-w-xs truncate">${escapeHtml(p.cast || '-')}</td>
+                            <td class="p-4">
+                                <button onclick="toggleCheckpointQuick('${p.id}', 'page')" class="px-3 py-1 rounded-lg text-xs font-medium inline-flex items-center space-x-1.5 ${cp.page ? 'bg-teal-500/20 text-teal-300 border border-teal-500/30' : 'bg-slate-800 text-slate-500 border border-slate-700'}">
+                                    <i class="fa-solid fa-globe"></i>
+                                    <span>${cp.page ? 'Ja (Erstellt)' : 'Nein (Offen)'}</span>
+                                </button>
+                            </td>
                             <td class="p-4 text-center">
                                 <span class="px-2.5 py-1 rounded-full text-xs font-medium ${percent === 100 ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20' : 'bg-amber-500/10 text-amber-400 border border-amber-500/20'}">
-                                    ${activeCount}/6 Checkpoints
+                                    ${activeCount}/7 Checkpoints
                                 </span>
                             </td>
                             <td class="p-4 text-right space-x-1">
@@ -681,12 +708,14 @@
                     document.getElementById('formDescription').value = play.description || '';
                     document.getElementById('formCast').value = play.cast || '';
 
-                    document.getElementById('checkFlyer').checked = play.checkpoints.flyer;
-                    document.getElementById('checkPoster').checked = play.checkpoints.poster;
-                    document.getElementById('checkInfo').checked = play.checkpoints.info;
-                    document.getElementById('checkImages').checked = play.checkpoints.images;
-                    document.getElementById('checkDate').checked = play.checkpoints.date;
-                    document.getElementById('checkCast').checked = play.checkpoints.cast;
+                    const cp = play.checkpoints || {};
+                    document.getElementById('checkFlyer').checked = !!cp.flyer;
+                    document.getElementById('checkPoster').checked = !!cp.poster;
+                    document.getElementById('checkInfo').checked = !!cp.info;
+                    document.getElementById('checkImages').checked = !!cp.images;
+                    document.getElementById('checkDate').checked = !!cp.date;
+                    document.getElementById('checkCast').checked = !!cp.cast;
+                    document.getElementById('checkPage').checked = !!cp.page;
                 }
             } else {
                 document.getElementById('modalTitle').innerText = 'Theaterstück hinzufügen';
@@ -718,6 +747,7 @@
                 images: document.getElementById('checkImages').checked,
                 date: document.getElementById('checkDate').checked,
                 cast: document.getElementById('checkCast').checked,
+                page: document.getElementById('checkPage').checked,
             };
 
             if (id) {
@@ -757,7 +787,6 @@
             }
         }
 
-        // GITHUB EINSTELLUNGEN MODAL
         function openSettingsModal() {
             document.getElementById('ghToken').value = ghConfig.token || '';
             document.getElementById('ghRepo').value = ghConfig.repo || '';
@@ -809,14 +838,12 @@
             return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
         }
 
-        // Initialize App
         window.onload = function() {
             renderDashboard();
             if (ghConfig.token && ghConfig.repo) {
                 syncFromGitHub();
             } else {
                 updateSyncStatus('off');
-                // Wenn Repository noch fehlt, Modal nach kurzer Verzögerung öffnen
                 setTimeout(() => openSettingsModal(), 600);
             }
         };
