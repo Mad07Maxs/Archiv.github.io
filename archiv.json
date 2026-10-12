@@ -16,8 +16,9 @@
       "cast": false,
       "page": false
     },
-    "hasPage": false,
-    "poster": true
+    "hasPage": true,
+    "poster": true,
+    "hasDate": true
   },
   {
     "id": "1791802118236",
