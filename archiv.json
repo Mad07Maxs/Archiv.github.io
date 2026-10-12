@@ -15,7 +15,9 @@
       "date": false,
       "cast": false,
       "page": false
-    }
+    },
+    "hasPage": false,
+    "poster": true
   },
   {
     "id": "1791802118236",
@@ -33,7 +35,8 @@
       "date": false,
       "cast": false,
       "page": false
-    }
+    },
+    "poster": true
   },
   {
     "id": "1791802196155",
@@ -93,7 +96,8 @@
       "date": false,
       "cast": false,
       "page": false
-    }
+    },
+    "poster": true
   },
   {
     "id": "1791802772414",
@@ -129,7 +133,8 @@
       "date": false,
       "cast": false,
       "page": false
-    }
+    },
+    "poster": true
   },
   {
     "id": "1791802885658",
@@ -147,7 +152,8 @@
       "date": false,
       "cast": false,
       "page": false
-    }
+    },
+    "poster": true
   },
   {
     "id": "1791802922981",
@@ -165,7 +171,8 @@
       "date": false,
       "cast": false,
       "page": false
-    }
+    },
+    "poster": true
   },
   {
     "id": "1791802945769",
@@ -183,7 +190,8 @@
       "date": false,
       "cast": false,
       "page": false
-    }
+    },
+    "poster": true
   },
   {
     "id": "1791802984842",
@@ -471,7 +479,8 @@
       "date": false,
       "cast": false,
       "page": false
-    }
+    },
+    "hasPage": true
   },
   {
     "id": "1791803540168",
@@ -566,7 +575,10 @@
       "date": true,
       "cast": true,
       "page": true
-    }
+    },
+    "hasPage": true,
+    "hasDate": true,
+    "poster": true
   },
   {
     "id": "1791804008278",
@@ -584,7 +596,10 @@
       "date": true,
       "cast": false,
       "page": true
-    }
+    },
+    "hasPage": true,
+    "hasDate": true,
+    "poster": true
   },
   {
     "id": "1791804049989",
@@ -602,7 +617,10 @@
       "date": true,
       "cast": false,
       "page": true
-    }
+    },
+    "hasPage": true,
+    "hasDate": true,
+    "poster": true
   },
   {
     "id": "1791805815641",
@@ -620,7 +638,10 @@
       "date": true,
       "cast": false,
       "page": true
-    }
+    },
+    "hasPage": true,
+    "hasDate": true,
+    "poster": true
   },
   {
     "id": "1791805960027",
@@ -638,7 +659,10 @@
       "date": true,
       "cast": false,
       "page": true
-    }
+    },
+    "hasPage": true,
+    "hasDate": true,
+    "poster": true
   },
   {
     "id": "1791806079923",
@@ -656,7 +680,10 @@
       "date": true,
       "cast": false,
       "page": true
-    }
+    },
+    "hasPage": true,
+    "hasDate": true,
+    "poster": true
   },
   {
     "id": "1791806134586",
@@ -674,7 +701,8 @@
       "date": false,
       "cast": false,
       "page": true
-    }
+    },
+    "hasPage": true
   },
   {
     "id": "1791806204483",
@@ -692,6 +720,9 @@
       "date": true,
       "cast": false,
       "page": true
-    }
+    },
+    "hasPage": true,
+    "hasDate": true,
+    "poster": true
   }
 ]
