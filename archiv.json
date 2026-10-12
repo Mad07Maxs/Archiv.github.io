@@ -37,7 +37,9 @@
       "cast": false,
       "page": false
     },
-    "poster": true
+    "poster": true,
+    "hasDate": true,
+    "hasPage": true
   },
   {
     "id": "1791802196155",
@@ -55,7 +57,8 @@
       "date": false,
       "cast": false,
       "page": false
-    }
+    },
+    "hasPage": true
   },
   {
     "id": "1791802277062",
@@ -98,7 +101,9 @@
       "cast": false,
       "page": false
     },
-    "poster": true
+    "poster": true,
+    "hasDate": true,
+    "hasPage": true
   },
   {
     "id": "1791802772414",
@@ -499,7 +504,8 @@
       "date": false,
       "cast": false,
       "page": false
-    }
+    },
+    "hasPage": true
   },
   {
     "id": "1791803558921",
@@ -517,7 +523,8 @@
       "date": false,
       "cast": false,
       "page": false
-    }
+    },
+    "hasPage": true
   },
   {
     "id": "1791803617234",
