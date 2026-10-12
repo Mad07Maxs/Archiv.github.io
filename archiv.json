@@ -430,5 +430,23 @@
       "cast": false,
       "page": false
     }
+  },
+  {
+    "id": "1791803385214",
+    "title": "Lysistrata",
+    "date": "2003",
+    "director": "",
+    "imageUrl": "",
+    "description": "",
+    "cast": "",
+    "checkpoints": {
+      "flyer": false,
+      "poster": false,
+      "info": false,
+      "images": false,
+      "date": false,
+      "cast": false,
+      "page": false
+    }
   }
 ]
