@@ -1130,5 +1130,33 @@
     "hasDate": true,
     "hasCast": true,
     "hasPage": true
+  },
+  {
+    "id": "play_1791810698439",
+    "title": "Schneeweißchen und Rosenrot",
+    "date": "2026",
+    "cast": "",
+    "info": "",
+    "flyer": false,
+    "poster": false,
+    "infoText": false,
+    "images": false,
+    "hasDate": true,
+    "hasCast": false,
+    "hasPage": true
+  },
+  {
+    "id": "play_1791810727353",
+    "title": "Bitte nicht stören",
+    "date": "2026",
+    "cast": "",
+    "info": "",
+    "flyer": true,
+    "poster": true,
+    "infoText": true,
+    "images": false,
+    "hasDate": true,
+    "hasCast": true,
+    "hasPage": true
   }
 ]
