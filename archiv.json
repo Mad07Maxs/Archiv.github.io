@@ -18,7 +18,8 @@
     },
     "hasPage": true,
     "poster": true,
-    "hasDate": true
+    "hasDate": true,
+    "flyer": true
   },
   {
     "id": "1791802118236",
@@ -39,7 +40,8 @@
     },
     "poster": true,
     "hasDate": true,
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791802196155",
@@ -58,7 +60,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791802277062",
@@ -103,7 +106,8 @@
     },
     "poster": true,
     "hasDate": true,
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791802772414",
@@ -122,7 +126,9 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "poster": true,
+    "flyer": true
   },
   {
     "id": "1791802827244",
@@ -143,7 +149,8 @@
     },
     "poster": true,
     "hasPage": true,
-    "hasDate": true
+    "hasDate": true,
+    "flyer": true
   },
   {
     "id": "1791802885658",
@@ -164,7 +171,8 @@
     },
     "poster": true,
     "hasDate": true,
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791802922981",
@@ -185,7 +193,8 @@
     },
     "poster": true,
     "hasPage": true,
-    "hasDate": true
+    "hasDate": true,
+    "flyer": true
   },
   {
     "id": "1791802945769",
@@ -206,7 +215,8 @@
     },
     "poster": true,
     "hasPage": true,
-    "hasDate": true
+    "hasDate": true,
+    "flyer": true
   },
   {
     "id": "1791802984842",
@@ -225,7 +235,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803005574",
@@ -244,7 +255,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803022135",
@@ -263,7 +275,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803044264",
@@ -282,7 +295,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803065916",
@@ -301,7 +315,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803089542",
@@ -320,7 +335,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803108031",
@@ -339,7 +355,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803206180",
@@ -377,7 +394,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803248502",
@@ -396,7 +414,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803291273",
@@ -415,7 +434,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803306090",
@@ -434,7 +454,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803329939",
@@ -453,7 +474,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803360645",
@@ -491,7 +513,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803485477",
@@ -530,7 +553,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803558921",
@@ -549,7 +573,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803617234",
@@ -568,7 +593,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803910379",
@@ -885,7 +911,7 @@
     "date": "2017",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -899,7 +925,7 @@
     "date": "2016",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -913,7 +939,7 @@
     "date": "2016",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -927,7 +953,7 @@
     "date": "2016",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -941,7 +967,7 @@
     "date": "2016",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -955,7 +981,7 @@
     "date": "2016",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -969,7 +995,7 @@
     "date": "2015",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -983,7 +1009,7 @@
     "date": "2015",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": false,
     "infoText": false,
     "images": false,
@@ -997,7 +1023,7 @@
     "date": "2015",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -1011,7 +1037,7 @@
     "date": "2015",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -1025,7 +1051,7 @@
     "date": "2015",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -1039,7 +1065,7 @@
     "date": "2014",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -1053,7 +1079,7 @@
     "date": "2014",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -1067,7 +1093,7 @@
     "date": "2013",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -1081,7 +1107,7 @@
     "date": "2013",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
