@@ -510,7 +510,8 @@
       "cast": false,
       "page": false
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791803540168",
@@ -588,7 +589,7 @@
     },
     "poster": true,
     "infoText": false,
-    "flyer": false,
+    "flyer": true,
     "hasDate": true,
     "hasPage": true
   },
@@ -611,7 +612,8 @@
     },
     "hasPage": true,
     "hasDate": true,
-    "poster": true
+    "poster": true,
+    "flyer": true
   },
   {
     "id": "1791804008278",
@@ -632,7 +634,8 @@
     },
     "hasPage": true,
     "hasDate": true,
-    "poster": true
+    "poster": true,
+    "flyer": true
   },
   {
     "id": "1791804049989",
@@ -653,7 +656,8 @@
     },
     "hasPage": true,
     "hasDate": true,
-    "poster": true
+    "poster": true,
+    "flyer": true
   },
   {
     "id": "1791805815641",
@@ -674,7 +678,8 @@
     },
     "hasPage": true,
     "hasDate": true,
-    "poster": true
+    "poster": true,
+    "flyer": true
   },
   {
     "id": "1791805960027",
@@ -695,7 +700,8 @@
     },
     "hasPage": true,
     "hasDate": true,
-    "poster": true
+    "poster": true,
+    "flyer": true
   },
   {
     "id": "1791806079923",
@@ -716,7 +722,8 @@
     },
     "hasPage": true,
     "hasDate": true,
-    "poster": true
+    "poster": true,
+    "flyer": true
   },
   {
     "id": "1791806134586",
@@ -735,7 +742,8 @@
       "cast": false,
       "page": true
     },
-    "hasPage": true
+    "hasPage": true,
+    "flyer": true
   },
   {
     "id": "1791806204483",
@@ -756,7 +764,8 @@
     },
     "hasPage": true,
     "hasDate": true,
-    "poster": true
+    "poster": true,
+    "flyer": true
   },
   {
     "id": "play_1791806924656",
@@ -764,7 +773,7 @@
     "date": "2019",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -778,7 +787,7 @@
     "date": "2019",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -792,7 +801,7 @@
     "date": "2018",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": false,
     "infoText": false,
     "images": false,
@@ -806,7 +815,7 @@
     "date": "2018",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -820,7 +829,7 @@
     "date": "2018",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -834,7 +843,7 @@
     "date": "2018",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": false,
     "infoText": false,
     "images": false,
@@ -848,7 +857,7 @@
     "date": "2017",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -862,7 +871,7 @@
     "date": "2017",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": false,
@@ -1114,7 +1123,7 @@
     "date": "2023",
     "cast": "",
     "info": "",
-    "flyer": false,
+    "flyer": true,
     "poster": true,
     "infoText": false,
     "images": true,
